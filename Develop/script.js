@@ -1,29 +1,39 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 var userPass = {
- var: lowerCase = ['a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'],
+ lowerCase : ['a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z'].split(','),
 
- var: upperCase = ['A,B,C,D,E,F,G,H,I,J,K,L,M.O,P,Q,R,S,T,U,V,W,X,Y,Z'],
+ upperCase: ['A,B,C,D,E,F,G,H,I,J,K,L,M.O,P,Q,R,S,T,U,V,W,X,Y,Z'].split(','),
 
- var: numArr =['0,1,2,3,4,5,6,7,8,9'],
+ numArr= ['0,1,2,3,4,5,6,7,8,9'].split(','),
 
- var: symbolArr= ['~,!,@,#,$,%,^,&,*,_,-,=,+,(,),.,<,>,:,;,?,/,{,},|,\,'],
- var: passLength= userInput
+ symbolArr: ['~,!,@,#,$,%,^,&,*,_,-,=,+,(,),.,<,>,:,;,?,/,{,},|,\,'].split(','),
+ passLength: 0,
 
 }
-// userPass series of prompts
+// how many characters propmt
 function selectPass(){
   var userInput=window.prompt('how many characters do you want min 8'); {
     if (!userInput <=8||!userInput>= 129 ) {
       alert("need minimum of 8 characters");
     return false;
     } else {
-      passLength=userInput.valueOf
+      userPass=parseInt(userInput) // this should turn the string into an intergerhttps://www.w3schools.com/jsref/jsref_parseint.asp
     }
     
     }
+      
   }
-  
+  // pick your characters confirm window
+  function charTypes() {
+     lower = confirm("use lowercase characters?");
+     upper= confirm('Use uppercase characters?');
+     num= confirm('include numbers?');
+     symbol= confirm('include special characters?');
+     return{lower,upper,num,symbol};
+
+  }
+
   
   
 
