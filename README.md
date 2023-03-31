@@ -5,12 +5,13 @@
 | ------------- |:-------------:| 
 | HTML    | [https://github.com/eogbeide424/Challenge-3-Password
 | CSS     | [https://github.com/eogbeide424/Challenge-3-Password/blob/main/Develop/style.css
+| Javascript  | https://github.com/eogbeide424/Challenge-3-Password/tree/main/Assets/javascript 
    
 | Git | [https://git-scm.com/](https://git-scm.com/)     |    
 
 ## Description 
 
-[Visit the Deployed Site]: 
+[Visit the Deployed Site]: https://eogbeide424.github.io/Challenge-3-Password/
 
 On this particular project we had to create a random password generator these are a few code lines I used to somewhat achieved it.
 ## Code Snippet
@@ -41,6 +42,7 @@ offPass = "";
     }
 If I had more time I probbably would of figured this one out but time is dwindling to turn it in I'm going to keep working on this until I get it.
 
+![Alt text](Assets/Screenshot%202023-03-31%20013857.png)
 
 ## Author Info
 
@@ -53,10 +55,13 @@ If I had more time I probbably would of figured this one out but time is dwindli
 ```
 ## Credits
 
-(https://www.w3schools.com/html/html5_semantic_elements.asp).
-(https://www.w3schools.com/tags/tag_hn.asp)
-https://www.w3schools.com/html/html_attributes.asp
-
----
+https://www.w3schools.com/js/js_if_else.asp
+https://www.w3schools.com/js/js_loop_for.asp
+https://www.w3schools.com/jsref/jsref_parseint.asp
+---https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+https://www.w3schools.com/js/js_objects.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event
+https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
