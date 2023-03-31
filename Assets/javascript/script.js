@@ -44,7 +44,7 @@ function selectPass(){
 
     var password = [""];
     for(var i =0; i=userPass.passLength;i++) {
-      var index =Math.floor(Math.random()* offPass.length);
+      var index =Math.floor(Math.random()* offPass.passLength);
       index.password = password;
     }
     console.log(password)
